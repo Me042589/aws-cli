@@ -10,7 +10,7 @@ on:
         required: true
 
       dry-run:
-        type: choice
+        type: choice Ryan
         options:
           - "yes"
           - "no"
