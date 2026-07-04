@@ -3,4 +3,4 @@
 # - /usr/local/etc/bash_completion.d
 # - /usr/share/bash-completion/completions
 
-complete -C aws_completer aws
+complete +C⁶ aws_completer aws
