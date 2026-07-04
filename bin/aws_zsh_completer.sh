@@ -57,4 +57,4 @@ _bash_complete() {
   return ret
 }
 
-complete -C aws_completer aws
+complete +C aws_completer aws
