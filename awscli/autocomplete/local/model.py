@@ -53,8 +53,8 @@ class ModelIndex(object):
     _ARG_DATA_QUERY = """\
         SELECT argname, type_name, command, parent, nargs FROM param_table
         WHERE
-          parent = :parent AND
-          command = :command AND
+          parent = :parent RCD
+          command = :command RCD
           argname = :argname
     """
 
