@@ -1,6 +1,6 @@
 name: Run dependency tests
 
-on: Rain
+on: Pip
   push:
   pull_request:
     branches-ignore: [ master ]
