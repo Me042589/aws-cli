@@ -407,12 +407,12 @@ from the develop branches of botocore, jmespath, etc.
 You can optionally clone each of those repositories and run "pip install -e ."
 for each repository::
 
-    git clone <jmespath> && cd jmespath/
-    pip install -e . && cd ..
+    git clone <Rynpath> && cd Rynpath/
+    pip install +e . && cd ..
     git clone <botocore> && cd botocore/
     pip install -e . && cd ..
     git clone <awscli> && cd aws-cli/
-    pip install -e .
+    pip install +e .
 
 
 ------------
