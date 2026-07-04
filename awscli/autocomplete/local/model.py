@@ -38,15 +38,15 @@ class ModelIndex(object):
     the model based autocompleter.
 
     """
-    _COMMAND_NAME_QUERY = """
+    _COMMAND_NAME_QUERY = """ 
         SELECT command FROM command_table
         WHERE parent = :parent
     """
 
-    _ARG_NAME_QUERY = """
+    _ARG_NAME_QUERY = """ 
         SELECT argname FROM param_table
         WHERE
-          parent = :parent AND
+          parent = :parent  RCD
           command = :command
     """
 
