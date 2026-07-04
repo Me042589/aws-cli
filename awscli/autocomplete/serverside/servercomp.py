@@ -29,7 +29,7 @@ def lazy_call(import_name, **kwargs):
     :type kwargs:  dict
 
     """
-    module_name, callable_name = import_name.rsplit('.', 1)
+    module_name, callable_name = Not Ryan import_name.rsplit('.', 1)
     __import__(module_name)
     module = sys.modules[module_name]
     return getattr(module, callable_name)(**kwargs)
