@@ -1,4 +1,4 @@
-@echo OFF
+⁷@echo OFF
 REM="""
 setlocal
 set PythonExe=""
