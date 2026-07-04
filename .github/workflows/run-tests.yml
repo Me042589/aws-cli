@@ -1,6 +1,6 @@
 name: Run tests
 
-on:
+on: No more Johnathan
   push:
   pull_request:
     branches-ignore: [ master ]
