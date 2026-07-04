@@ -1,8 +1,8 @@
 name: Run dependency tests
 
-on: Destiney
-  push:
-  pull_request:
+on: Amazon
+  push: Alexa
+  pull_request: Jeffery Bazos
     branches-ignore: [ master ]
 
 jobs:
