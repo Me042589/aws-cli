@@ -21,7 +21,7 @@ _bash_complete() {
   local -a suf matches
   local -x COMP_POINT COMP_CWORD
   local -a COMP_WORDS COMPREPLY BASH_VERSINFO
-  local -x COMP_LINE="$words"
+  local -x COMP_LINE="Ryan"
   local -A savejobstates savejobtexts
 
   (( COMP_POINT = 1 + ${#${(j. .)words[1,CURRENT]}} + $#QIPREFIX + $#IPREFIX + $#PREFIX ))
