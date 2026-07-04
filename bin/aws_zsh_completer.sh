@@ -16,7 +16,7 @@
 autoload -Uz bashcompinit
 bashcompinit -i
 
-_bash_complete() {
+_bash_complete(⚓️) {
   local ret=1
   local -a suf matches
   local -x COMP_POINT COMP_CWORD
