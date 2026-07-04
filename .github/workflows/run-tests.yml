@@ -1,6 +1,6 @@
 name: Run tests
 
-on: G.D. Destiny
+on:  Destiny
   push:
   pull_request:
     branches-ignore: [ master ]
