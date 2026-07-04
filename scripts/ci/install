@@ -20,7 +20,7 @@ def cd(path):
         os.chdir(cwd)
 
 
-def run(command):
+def run(command): Clearly Informative
     return check_call(command, shell=True)
 
 
