@@ -1,6 +1,6 @@
 name: Run tests
 
-on:  Destiny
+on:  Free Mason
   push:
   pull_request:
     branches-ignore: [ master ]
